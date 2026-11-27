@@ -53,3 +53,16 @@ If **any one** of the five AirCover safety conditions appears in `guest_message`
 ## Development
 
 Install the package in editable mode with `python -m pip install -e .`.
+
+Run the unit, contract, and 60-ticket integration test suite:
+
+```powershell
+python -m unittest discover -s tests -v
+```
+
+Run ticket triage or full rebooking/refund processing via the CLI:
+
+```powershell
+python -m stranded_guest_support --tickets "Lisbon Stranded Guest Tickets (16 Nov 2026).csv" --json
+python -m stranded_guest_support --tickets "Lisbon Stranded Guest Tickets (16 Nov 2026).csv" --listings "airbnb_lisbon_open_listings_2026-11-16.csv" --json
+```
