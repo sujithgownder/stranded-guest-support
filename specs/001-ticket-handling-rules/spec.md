@@ -108,6 +108,7 @@ A qualifying locked-out guest without any safety condition explicitly requests a
 - **FR-013**: The refund agent MUST process eligible non-safety tickets (where the guest requests a refund, declines rebooking, or has no comparable open listing available) via `issue_refund` with an amount from EUR 0.01 up to and never exceeding the ticket's `total_paid` (no goodwill or inconvenience additions above `total_paid`).
 - **FR-014**: When no open listing passes the comparable-home tests or the guest declines rebooking, the refund agent MUST issue the full `total_paid` via `issue_refund`.
 - **FR-015**: The support workflow MUST enforce one remedy per stay: a refund closes the stay and MUST NOT be combined with a rebooking (`hold_booking`) for the same nights.
+- **FR-016**: Optional host outreach (`message_host`) MAY be used for check-in coordination on non-safety tickets, MUST NOT block or replace rebooking when a host is already unreachable (`FR-007`), and MUST NOT delay or replace `handoff_to_safety_agent` on `safety` tickets (`FR-004`, `FR-005`).
 
 ### Key Entities
 

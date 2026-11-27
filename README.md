@@ -67,22 +67,22 @@ python -m stranded_guest_support.mcp_server --transport http --host 127.0.0.1 --
 ### Printed Tool List
 
 ```text
-lookup_reservation: 'Look up a reservation record by reservation_id.'
-search_open_listings: 'Search loaded open listings matching dates, party_size, bedrooms, and price ceiling.'
-hold_booking: 'Place a temporary hold on an available open listing for a reservation.'
-issue_refund: 'Issue a refund for a reservation, bounded by total_paid when known.'
-message_host: 'Send a message to a host regarding a reservation.'
-handoff_to_safety_agent: 'Hand off a case to a live Trust and Safety agent.'
+lookup_reservation: 'Look up a reservation by reservation_id to read stay dates, party_size, bedrooms, original nightly_price, total_paid, and safety status (spec.md FR-003/FR-009/FR-013).'
+search_open_listings: 'Search loaded CSV open listings with status=available whose [available_from, available_to] covers check_in_date..check_out_date, max_guests>=party_size, bedrooms>=bedrooms, and nightly_price<=max_nightly_price (pass <=1.20x original nightly_price per spec.md FR-009/FR-010).'
+hold_booking: 'Hold an available comparable listing for a known reservation. Enforces safety pre-handoff block (FR-005), one remedy per stay (FR-015), dates, party_size, bedrooms, status=available, and nightly_price<=1.20x original nightly_price (FR-009/FR-010).'
+issue_refund: 'Issue a refund for a known reservation from EUR 0.01 up to total_paid (FR-013/FR-014). Enforces safety pre-handoff block (FR-005) and one remedy per stay (FR-015), rejecting unknown reservations and active holds.'
+message_host: 'Send an outreach message to a host; does not replace rebooking for unreachable hosts (FR-007/FR-016) or handoff_to_safety_agent on safety tickets (FR-004/FR-005/FR-016).'
+handoff_to_safety_agent: 'Hand off any ticket exhibiting one of the five AirCover safety conditions (injury_or_medical_need, threat_or_violence, nowhere_safe_to_wait, unaccompanied_minor, stated_fear_of_person) to a live Trust and Safety agent before hold_booking or issue_refund (FR-002/FR-004/FR-005).'
 ```
 
 ### Tool Descriptions vs. Spec Rules
 
-- **`lookup_reservation`**: Matches ticket/reservation inputs in [spec.md](specs/001-ticket-handling-rules/spec.md) by returning `total_paid`, `nightly_price`, dates, `bedrooms`, `party_size`, `neighborhood`, and `host_id` from the loaded CSV (not defined as a standalone tool in `spec.md`).
-- **`search_open_listings`**: Matches `FR-009` search filters by requiring `status == available`, stay dates within `[available_from, available_to]`, `max_guests >= party_size`, `bedrooms >= bedrooms`, and `nightly_price <= max_nightly_price` (returning only matching `listing_id`s from the CSV). The 120% ceiling calculation itself is supplied by the caller as `max_nightly_price`.
-- **`hold_booking`**: Matches `FR-009` availability by verifying the listing exists in the CSV and has `status == available` (flipping it to `on_hold`). Unlike `PolicyToolGateway` in [src/stranded_guest_support/tools.py](src/stranded_guest_support/tools.py), the raw MCP tool does not yet enforce the 120% `nightly_price` cap, pre-handoff safety lock (`FR-005`), or one-remedy-per-stay (`FR-015`).
-- **`issue_refund`**: Matches `FR-013`/`FR-014` for known reservations by capping refunds at `[0.01, total_paid]` (`exceeds_total_paid` rejection). For unknown `reservation_id`s, `total_paid` is unavailable, and the raw MCP tool does not yet enforce the pre-handoff safety lock (`FR-005`) or one-remedy-per-stay (`FR-015`).
-- **`message_host`**: Included for the six-tool MCP server interface; not defined in `spec.md`, where host-unreachable tickets (`LIS-TKT-0003`, `0019`, `0038`, `0051`) route directly to `rebooking`.
-- **`handoff_to_safety_agent`**: Matches `FR-002`/`FR-004`/`FR-005` destination (`live Trust and Safety agent`), though its description does not enumerate the five AirCover safety conditions or enforce the pre-handoff block inside `mcp_server.py`.
+- **`lookup_reservation`**: Returns reservation dates, `party_size`, `bedrooms`, `nightly_price`, `max_rebook_nightly_price`, `total_paid`, `host_id`, and detected `safety_conditions` from the loaded CSV exports (`FR-003`/`FR-009`/`FR-013`).
+- **`search_open_listings`**: Filters loaded CSV listings by `status == available`, `[available_from, available_to]` covering `check_in_date..check_out_date`, `max_guests >= party_size`, `bedrooms >= bedrooms`, and `nightly_price <= max_nightly_price` (`FR-009`/`FR-010`).
+- **`hold_booking`**: Enforces the safety pre-handoff block (`status: "blocked"` before `handoff_to_safety_agent`, `FR-005`), one remedy per stay (`FR-015`), known reservation, `status == available`, stay dates, `party_size`, `bedrooms`, `<= 1.20x` original `nightly_price` (`FR-009`/`FR-010`), and the EUR 9,000 incident uplift budget.
+- **`issue_refund`**: Enforces the safety pre-handoff block (`status: "blocked"` before `handoff_to_safety_agent`, `FR-005`), rejects unknown `reservation_id`s, rejects active holds or prior refunds (`FR-015`), and caps refunds to `[EUR 0.01, total_paid]` (`FR-013`/`FR-014`).
+- **`message_host`**: Covered by `FR-016` — allows non-blocking host outreach on non-safety tickets without delaying or replacing `rebooking` for unreachable hosts (`FR-007`) or `handoff_to_safety_agent` on `safety` tickets (`FR-004`/`FR-005`).
+- **`handoff_to_safety_agent`**: Validates one of the five AirCover safety conditions (`FR-003`) and hands off to a live Trust and Safety agent, clearing the pre-handoff lock (`FR-005`).
 
 ## Development
 
