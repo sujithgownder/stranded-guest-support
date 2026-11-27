@@ -50,6 +50,40 @@ If **any one** of the five AirCover safety conditions appears in `guest_message`
 - **Refund cap (`total_paid`)**: Refunds never exceed `total_paid` (including promo-discounted reservations; no goodwill or inconvenience additions above `total_paid`). Any partial amount from EUR 0.01 up to `total_paid` is within policy, and a full `total_paid` refund is due when no comparable home exists or the guest declines rebooking.
 - **One remedy per stay**: A refund closes the stay and is never combined with a rebooking for the same nights.
 
+## FastMCP Server
+
+A standalone FastMCP server exposes the six raw support tools in [src/stranded_guest_support/mcp_server.py](src/stranded_guest_support/mcp_server.py) and loads [Lisbon Open Listings Export (16 Nov 2026).csv](Lisbon%20Open%20Listings%20Export%20(16%20Nov%202026).csv) and [Lisbon Stranded Guest Tickets (16 Nov 2026).csv](Lisbon%20Stranded%20Guest%20Tickets%20(16%20Nov%202026).csv) once at startup.
+
+### Run Command
+
+```powershell
+# Stdio transport (default for MCP clients)
+python -m stranded_guest_support.mcp_server
+
+# HTTP transport
+python -m stranded_guest_support.mcp_server --transport http --host 127.0.0.1 --port 8000
+```
+
+### Printed Tool List
+
+```text
+lookup_reservation: 'Look up a reservation record by reservation_id.'
+search_open_listings: 'Search loaded open listings matching dates, party_size, bedrooms, and price ceiling.'
+hold_booking: 'Place a temporary hold on an available open listing for a reservation.'
+issue_refund: 'Issue a refund for a reservation, bounded by total_paid when known.'
+message_host: 'Send a message to a host regarding a reservation.'
+handoff_to_safety_agent: 'Hand off a case to a live Trust and Safety agent.'
+```
+
+### Tool Descriptions vs. Spec Rules
+
+- **`lookup_reservation`**: Matches ticket/reservation inputs in [spec.md](specs/001-ticket-handling-rules/spec.md) by returning `total_paid`, `nightly_price`, dates, `bedrooms`, `party_size`, `neighborhood`, and `host_id` from the loaded CSV (not defined as a standalone tool in `spec.md`).
+- **`search_open_listings`**: Matches `FR-009` search filters by requiring `status == available`, stay dates within `[available_from, available_to]`, `max_guests >= party_size`, `bedrooms >= bedrooms`, and `nightly_price <= max_nightly_price` (returning only matching `listing_id`s from the CSV). The 120% ceiling calculation itself is supplied by the caller as `max_nightly_price`.
+- **`hold_booking`**: Matches `FR-009` availability by verifying the listing exists in the CSV and has `status == available` (flipping it to `on_hold`). Unlike `PolicyToolGateway` in [src/stranded_guest_support/tools.py](src/stranded_guest_support/tools.py), the raw MCP tool does not yet enforce the 120% `nightly_price` cap, pre-handoff safety lock (`FR-005`), or one-remedy-per-stay (`FR-015`).
+- **`issue_refund`**: Matches `FR-013`/`FR-014` for known reservations by capping refunds at `[0.01, total_paid]` (`exceeds_total_paid` rejection). For unknown `reservation_id`s, `total_paid` is unavailable, and the raw MCP tool does not yet enforce the pre-handoff safety lock (`FR-005`) or one-remedy-per-stay (`FR-015`).
+- **`message_host`**: Included for the six-tool MCP server interface; not defined in `spec.md`, where host-unreachable tickets (`LIS-TKT-0003`, `0019`, `0038`, `0051`) route directly to `rebooking`.
+- **`handoff_to_safety_agent`**: Matches `FR-002`/`FR-004`/`FR-005` destination (`live Trust and Safety agent`), though its description does not enumerate the five AirCover safety conditions or enforce the pre-handoff block inside `mcp_server.py`.
+
 ## Development
 
 Install the package in editable mode with `python -m pip install -e .`.

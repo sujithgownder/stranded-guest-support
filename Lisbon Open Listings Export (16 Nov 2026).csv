@@ -1,0 +1,451 @@
+listing_id,host_id,neighborhood,bedrooms,max_guests,title,nightly_price,available_from,available_to,status,instant_book,rating
+LST-100001,HOST-4163,Belem,1,2,Modern 1BR with lift in Belem,79.06,2026-11-16,2026-11-25,on_hold,False,4.49
+LST-100002,HOST-4023,Alfama,3,7,Modern 3BR with lift in Alfama,417.84,2026-11-15,2026-11-22,available,True,4.65
+LST-100003,HOST-4105,Chiado,1,2,"Renovated 1BR near Tram 28, Chiado",124.47,2026-11-17,2026-11-25,on_hold,True,4.79
+LST-100004,HOST-4002,Belem,1,2,Bright 1BR flat in Belem,87.05,2026-11-16,2026-11-21,available,False,4.96
+LST-100005,HOST-4038,Alcantara,1,2,"Tiled 1-bedroom home near the river, Alcantara",58.49,2026-11-16,2026-11-26,booked,True,4.63
+LST-100006,HOST-4017,Chiado,4,7,"Sunny 4-bedroom home for 7 guests, Chiado",354.94,2026-11-16,2026-11-25,available,False,4.59
+LST-100007,HOST-4031,Alcantara,1,2,"Family 1-bedroom flat for up to 2, Alcantara",78.5,2026-11-14,2026-11-28,on_hold,False,4.93
+LST-100008,HOST-4167,Parque das Nacoes,2,4,Modern 2BR with lift in Parque das Nacoes,100.63,2026-11-15,2026-11-21,on_hold,True,4.8
+LST-100009,HOST-4086,Graca,4,10,Top-floor 4BR with city views in Graca,241.75,2026-11-14,2026-11-25,available,True,4.3
+LST-100010,HOST-4052,Belem,1,2,"Cosy 1BR studio-style home, Belem",103.53,2026-11-14,2026-11-30,available,False,
+LST-100011,HOST-4112,Parque das Nacoes,2,4,Bright 2BR flat in Parque das Nacoes,91.75,2026-11-15,2026-11-27,on_hold,True,4.92
+LST-100012,HOST-4017,Graca,1,2,"Tiled 1-bedroom home near the river, Graca",78.66,2026-11-14,2026-11-28,available,True,4.6
+LST-100013,HOST-4038,Graca,1,2,Modern 1BR with lift in Graca,77.95,2026-11-14,2026-11-29,booked,True,4.88
+LST-100014,HOST-4163,Parque das Nacoes,1,2,Bright 1BR flat in Parque das Nacoes,100.92,2026-11-15,2026-11-20,available,True,4.73
+LST-100015,HOST-4031,Bairro Alto,1,2,Modern 1BR with lift in Bairro Alto,115.59,2026-11-16,2026-11-24,on_hold,True,4.29
+LST-100016,HOST-4146,Chiado,1,2,"Renovated 1BR near Tram 28, Chiado",98.55,2026-11-17,2026-11-23,available,False,4.95
+LST-100017,HOST-4163,Alfama,1,2,"Tiled 1-bedroom home near the river, Alfama",55.06,2026-11-15,2026-11-29,available,True,4.69
+LST-100018,HOST-4167,Principe Real,1,2,"Sunny 1-bedroom home for 2 guests, Principe Real",75.17,2026-11-14,2026-11-20,on_hold,True,4.77
+LST-100019,HOST-4092,Principe Real,3,7,Classic Pombaline 3BR in Principe Real,312.73,2026-11-17,2026-11-18,on_hold,False,4.54
+LST-100020,HOST-4180,Graca,1,2,Bright 1BR flat in Graca,74.26,2026-11-17,2026-11-23,available,True,4.98
+LST-100021,HOST-4133,Graca,1,2,"Renovated 1BR near Tram 28, Graca",109.79,2026-11-16,2026-11-29,booked,True,4.7
+LST-100022,HOST-4014,Baixa,2,5,"Family 2-bedroom flat for up to 5, Baixa",92.26,2026-11-16,2026-11-19,on_hold,True,
+LST-100023,HOST-4009,Graca,2,5,"Sunny 2-bedroom home for 5 guests, Graca",158.47,2026-11-14,2026-11-29,booked,False,4.83
+LST-100024,HOST-4086,Bairro Alto,3,5,"Cosy 3BR studio-style home, Bairro Alto",361.56,2026-11-14,2026-11-20,available,True,4.87
+LST-100025,HOST-4063,Graca,1,2,"Sunny 1-bedroom home for 2 guests, Graca",68.35,2026-11-17,2026-11-26,available,True,4.96
+LST-100026,HOST-4057,Parque das Nacoes,2,4,Top-floor 2BR with city views in Parque das Nacoes,102.1,2026-11-14,2026-11-19,available,True,4.91
+LST-100027,HOST-4158,Alfama,1,2,Bright 1BR flat in Alfama,68.98,2026-11-15,2026-11-20,on_hold,True,4.83
+LST-100028,HOST-4009,Alfama,2,3,Bright 2BR flat in Alfama,90.28,2026-11-16,2026-11-25,booked,False,4.57
+LST-100029,HOST-4014,Baixa,4,8,Quiet 4BR apartment with balcony in Baixa,334.17,2026-11-16,2026-11-19,available,False,4.95
+LST-100030,HOST-4086,Graca,1,2,"Renovated 1BR near Tram 28, Graca",89.07,2026-11-15,2026-11-27,available,True,4.78
+LST-100031,HOST-4023,Estrela,4,7,"Cosy 4BR studio-style home, Estrela",369.74,2026-11-17,2026-11-26,available,False,4.76
+LST-100032,HOST-4092,Graca,1,2,"Renovated 1BR near Tram 28, Graca",55.41,2026-11-16,2026-11-23,available,True,4.9
+LST-100033,HOST-4163,Principe Real,2,5,"Tiled 2-bedroom home near the river, Principe Real",143.04,2026-11-14,2026-11-19,available,True,
+LST-100034,HOST-4163,Chiado,1,2,Classic Pombaline 1BR in Chiado,124.94,2026-11-17,2026-11-26,available,True,4.91
+LST-100035,HOST-4146,Estrela,2,5,"Renovated 2BR near Tram 28, Estrela",101.5,2026-11-17,2026-11-25,on_hold,False,4.58
+LST-100036,HOST-4163,Alfama,3,6,"Family 3-bedroom flat for up to 6, Alfama",347.98,2026-11-16,2026-11-23,available,False,4.63
+LST-100037,HOST-4078,Alcantara,1,2,Quiet 1BR apartment with balcony in Alcantara,65.85,2026-11-16,2026-11-18,booked,True,4.95
+LST-100038,HOST-4118,Alfama,2,5,Top-floor 2BR with city views in Alfama,109.43,2026-11-17,2026-11-24,available,True,4.31
+LST-100039,HOST-4112,Alfama,1,2,Top-floor 1BR with city views in Alfama,63.74,2026-11-17,2026-11-19,on_hold,False,4.83
+LST-100040,HOST-4063,Alfama,2,4,Quiet 2BR apartment with balcony in Alfama,168.6,2026-11-17,2026-11-30,available,False,4.98
+LST-100041,HOST-4017,Parque das Nacoes,4,6,"Cosy 4BR studio-style home, Parque das Nacoes",336.69,2026-11-15,2026-11-25,available,False,4.95
+LST-100042,HOST-4009,Baixa,1,2,"Sunny 1-bedroom home for 2 guests, Baixa",84.38,2026-11-15,2026-11-21,available,False,4.9
+LST-100043,HOST-4133,Bairro Alto,1,2,"Cosy 1BR studio-style home, Bairro Alto",112.05,2026-11-17,2026-11-19,booked,True,4.89
+LST-100044,HOST-4146,Alfama,1,2,Bright 1BR flat in Alfama,79.69,2026-11-16,2026-11-29,available,True,4.86
+LST-100045,HOST-4063,Baixa,3,5,Top-floor 3BR with city views in Baixa,236.39,2026-11-15,2026-11-21,available,False,4.95
+LST-100046,HOST-4146,Baixa,2,5,"Renovated 2BR near Tram 28, Baixa",150.6,2026-11-15,2026-11-25,available,True,4.49
+LST-100047,HOST-4176,Chiado,2,4,Modern 2BR with lift in Chiado,126.64,2026-11-15,2026-11-27,booked,True,4.51
+LST-100048,HOST-4167,Estrela,3,6,"Renovated 3BR near Tram 28, Estrela",291.62,2026-11-15,2026-11-22,available,False,4.81
+LST-100049,HOST-4071,Graca,1,2,"Cosy 1BR studio-style home, Graca",96.73,2026-11-15,2026-11-27,available,False,4.73
+LST-100050,HOST-4071,Estrela,1,2,"Cosy 1BR studio-style home, Estrela",123.42,2026-11-16,2026-11-25,available,True,4.97
+LST-100051,HOST-4152,Baixa,2,4,Classic Pombaline 2BR in Baixa,161.88,2026-11-15,2026-11-30,available,True,4.66
+LST-100052,HOST-4099,Chiado,2,3,"Renovated 2BR near Tram 28, Chiado",101.82,2026-11-17,2026-11-27,available,True,4.98
+LST-100053,HOST-4057,Graca,1,2,"Tiled 1-bedroom home near the river, Graca",91.78,2026-11-15,2026-11-26,available,True,4.47
+LST-100054,HOST-4167,Alfama,1,2,"Sunny 1-bedroom home for 2 guests, Alfama",94.22,2026-11-17,2026-11-19,available,True,4.85
+LST-100055,HOST-4031,Alfama,1,2,Modern 1BR with lift in Alfama,70.94,2026-11-15,2026-11-30,available,True,4.77
+LST-100056,HOST-4112,Graca,2,4,Modern 2BR with lift in Graca,108.9,2026-11-16,2026-11-22,available,True,4.48
+LST-100057,HOST-4017,Chiado,2,4,"Family 2-bedroom flat for up to 4, Chiado",105.61,2026-11-17,2026-11-29,available,True,4.65
+LST-100058,HOST-4124,Alfama,1,2,Bright 1BR flat in Alfama,111.47,2026-11-15,2026-11-18,available,True,4.93
+LST-100059,HOST-4180,Graca,1,2,"Cosy 1BR studio-style home, Graca",55.27,2026-11-14,2026-11-19,on_hold,False,4.86
+LST-100060,HOST-4139,Baixa,3,6,"Tiled 3-bedroom home near the river, Baixa",334.7,2026-11-16,2026-11-24,available,True,4.72
+LST-100061,HOST-4086,Belem,2,3,Quiet 2BR apartment with balcony in Belem,111.72,2026-11-17,2026-11-24,on_hold,True,4.55
+LST-100062,HOST-4176,Principe Real,1,2,"Renovated 1BR near Tram 28, Principe Real",88.52,2026-11-15,2026-11-23,available,False,4.82
+LST-100063,HOST-4118,Belem,2,4,Top-floor 2BR with city views in Belem,109.45,2026-11-14,2026-11-28,available,False,4.78
+LST-100064,HOST-4146,Bairro Alto,2,4,Classic Pombaline 2BR in Bairro Alto,96.99,2026-11-16,2026-11-18,available,True,
+LST-100065,HOST-4124,Alfama,3,6,"Sunny 3-bedroom home for 6 guests, Alfama",327.42,2026-11-15,2026-11-25,available,False,4.43
+LST-100066,HOST-4057,Principe Real,3,6,Modern 3BR with lift in Principe Real,222.65,2026-11-16,2026-11-19,available,True,4.55
+LST-100067,HOST-4133,Belem,1,2,"Family 1-bedroom flat for up to 2, Belem",78.83,2026-11-15,2026-11-18,available,True,
+LST-100068,HOST-4092,Bairro Alto,3,6,Classic Pombaline 3BR in Bairro Alto,339.65,2026-11-14,2026-11-19,available,True,4.71
+LST-100069,HOST-4171,Bairro Alto,1,2,"Cosy 1BR studio-style home, Bairro Alto",56.69,2026-11-15,2026-11-21,on_hold,True,4.96
+LST-100070,HOST-4057,Bairro Alto,2,4,Modern 2BR with lift in Bairro Alto,141.77,2026-11-16,2026-11-30,available,False,4.6
+LST-100071,HOST-4038,Alfama,3,5,"Cosy 3BR studio-style home, Alfama",294.69,2026-11-16,2026-11-29,booked,True,4.72
+LST-100072,HOST-4009,Chiado,1,2,"Sunny 1-bedroom home for 2 guests, Chiado",71.94,2026-11-16,2026-11-21,on_hold,False,4.64
+LST-100073,HOST-4057,Chiado,2,4,Quiet 2BR apartment with balcony in Chiado,144.2,2026-11-16,2026-11-23,available,True,4.7
+LST-100074,HOST-4180,Bairro Alto,1,2,Classic Pombaline 1BR in Bairro Alto,84.23,2026-11-15,2026-11-21,available,False,4.67
+LST-100075,HOST-4112,Graca,3,5,Bright 3BR flat in Graca,351.39,2026-11-16,2026-11-25,available,True,4.84
+LST-100076,HOST-4124,Bairro Alto,4,8,Top-floor 4BR with city views in Bairro Alto,379.8,2026-11-14,2026-11-22,available,True,4.64
+LST-100077,HOST-4052,Estrela,1,2,"Renovated 1BR near Tram 28, Estrela",71.11,2026-11-17,2026-11-28,on_hold,False,4.85
+LST-100078,HOST-4057,Chiado,2,4,Quiet 2BR apartment with balcony in Chiado,105.57,2026-11-17,2026-11-28,available,True,
+LST-100079,HOST-4176,Chiado,3,6,"Cosy 3BR studio-style home, Chiado",262.14,2026-11-15,2026-11-25,available,True,4.65
+LST-100080,HOST-4180,Belem,1,2,"Family 1-bedroom flat for up to 2, Belem",81.96,2026-11-17,2026-11-30,available,False,4.69
+LST-100081,HOST-4002,Alfama,3,6,Quiet 3BR apartment with balcony in Alfama,240.55,2026-11-15,2026-11-20,available,True,4.52
+LST-100082,HOST-4152,Graca,1,2,"Sunny 1-bedroom home for 2 guests, Graca",59.53,2026-11-17,2026-11-29,available,False,4.91
+LST-100083,HOST-4139,Alfama,4,6,"Tiled 4-bedroom home near the river, Alfama",319.66,2026-11-15,2026-11-25,available,True,4.7
+LST-100084,HOST-4052,Bairro Alto,1,2,"Family 1-bedroom flat for up to 2, Bairro Alto",83.01,2026-11-14,2026-11-30,available,True,4.35
+LST-100085,HOST-4071,Alfama,1,2,"Family 1-bedroom flat for up to 2, Alfama",96.65,2026-11-14,2026-11-22,available,True,4.63
+LST-100086,HOST-4133,Baixa,2,4,"Family 2-bedroom flat for up to 4, Baixa",96.61,2026-11-16,2026-11-30,booked,False,4.87
+LST-100087,HOST-4133,Chiado,3,7,Top-floor 3BR with city views in Chiado,399.98,2026-11-14,2026-11-27,on_hold,True,4.68
+LST-100088,HOST-4118,Chiado,3,6,Quiet 3BR apartment with balcony in Chiado,177.96,2026-11-15,2026-11-27,available,True,4.97
+LST-100089,HOST-4092,Estrela,3,7,"Sunny 3-bedroom home for 7 guests, Estrela",278.3,2026-11-17,2026-11-22,booked,True,4.84
+LST-100090,HOST-4023,Alfama,2,5,"Sunny 2-bedroom home for 5 guests, Alfama",107.64,2026-11-17,2026-11-22,available,True,4.92
+LST-100091,HOST-4052,Baixa,2,4,Top-floor 2BR with city views in Baixa,95.5,2026-11-17,2026-11-30,available,True,4.9
+LST-100092,HOST-4139,Alcantara,1,2,Bright 1BR flat in Alcantara,83.72,2026-11-17,2026-11-28,available,False,4.3
+LST-100093,HOST-4099,Estrela,2,4,Classic Pombaline 2BR in Estrela,86.01,2026-11-15,2026-11-27,on_hold,True,4.96
+LST-100094,HOST-4014,Bairro Alto,2,4,Modern 2BR with lift in Bairro Alto,155.97,2026-11-14,2026-11-21,available,False,4.83
+LST-100095,HOST-4176,Baixa,3,7,"Sunny 3-bedroom home for 7 guests, Baixa",313.13,2026-11-16,2026-11-18,available,False,4.7
+LST-100096,HOST-4086,Graca,2,4,Bright 2BR flat in Graca,122.17,2026-11-16,2026-11-27,available,False,4.32
+LST-100097,HOST-4092,Principe Real,1,2,Top-floor 1BR with city views in Principe Real,72.05,2026-11-14,2026-11-21,on_hold,False,4.64
+LST-100098,HOST-4163,Estrela,1,2,Quiet 1BR apartment with balcony in Estrela,129.35,2026-11-16,2026-11-24,available,True,4.64
+LST-100099,HOST-4009,Alfama,1,2,Bright 1BR flat in Alfama,95.82,2026-11-14,2026-11-26,available,False,4.54
+LST-100100,HOST-4158,Alcantara,1,2,"Family 1-bedroom flat for up to 2, Alcantara",64.05,2026-11-16,2026-11-23,on_hold,True,4.96
+LST-100101,HOST-4180,Baixa,3,6,Bright 3BR flat in Baixa,368.83,2026-11-15,2026-11-28,available,False,4.97
+LST-100102,HOST-4031,Alcantara,2,5,Modern 2BR with lift in Alcantara,93.73,2026-11-16,2026-11-28,available,False,
+LST-100103,HOST-4014,Bairro Alto,1,2,"Tiled 1-bedroom home near the river, Bairro Alto",75.7,2026-11-16,2026-11-27,on_hold,False,4.98
+LST-100104,HOST-4163,Alfama,1,2,Quiet 1BR apartment with balcony in Alfama,55.82,2026-11-15,2026-11-18,on_hold,True,4.69
+LST-100105,HOST-4009,Belem,2,4,"Tiled 2-bedroom home near the river, Belem",109.23,2026-11-17,2026-11-23,available,False,4.64
+LST-100106,HOST-4163,Bairro Alto,1,2,"Family 1-bedroom flat for up to 2, Bairro Alto",63.52,2026-11-17,2026-11-19,on_hold,True,4.53
+LST-100107,HOST-4118,Graca,1,2,Modern 1BR with lift in Graca,97.16,2026-11-17,2026-11-25,available,True,4.9
+LST-100108,HOST-4163,Baixa,2,3,"Tiled 2-bedroom home near the river, Baixa",104.29,2026-11-14,2026-11-25,booked,True,4.91
+LST-100109,HOST-4176,Alfama,1,2,Quiet 1BR apartment with balcony in Alfama,62.12,2026-11-15,2026-11-28,on_hold,False,4.65
+LST-100110,HOST-4002,Estrela,2,4,"Renovated 2BR near Tram 28, Estrela",98.48,2026-11-16,2026-11-23,available,True,4.94
+LST-100111,HOST-4086,Parque das Nacoes,1,2,Bright 1BR flat in Parque das Nacoes,62.2,2026-11-14,2026-11-28,on_hold,False,4.31
+LST-100112,HOST-4158,Bairro Alto,1,2,"Tiled 1-bedroom home near the river, Bairro Alto",84.46,2026-11-15,2026-11-30,available,False,4.71
+LST-100113,HOST-4112,Graca,2,5,Top-floor 2BR with city views in Graca,116.52,2026-11-17,2026-11-19,available,True,4.45
+LST-100114,HOST-4167,Baixa,1,2,"Renovated 1BR near Tram 28, Baixa",89.37,2026-11-17,2026-11-27,available,True,4.77
+LST-100115,HOST-4105,Graca,3,7,"Family 3-bedroom flat for up to 7, Graca",220.19,2026-11-16,2026-11-30,available,False,4.93
+LST-100116,HOST-4023,Chiado,3,6,"Cosy 3BR studio-style home, Chiado",334.5,2026-11-14,2026-11-29,available,True,4.74
+LST-100117,HOST-4023,Parque das Nacoes,3,7,"Tiled 3-bedroom home near the river, Parque das Nacoes",411.54,2026-11-16,2026-11-20,available,False,4.89
+LST-100118,HOST-4031,Estrela,1,2,"Family 1-bedroom flat for up to 2, Estrela",73.08,2026-11-14,2026-11-22,on_hold,True,4.68
+LST-100119,HOST-4038,Alfama,1,2,Bright 1BR flat in Alfama,75.86,2026-11-17,2026-11-25,available,False,4.9
+LST-100120,HOST-4105,Principe Real,1,2,"Renovated 1BR near Tram 28, Principe Real",56.27,2026-11-15,2026-11-25,on_hold,False,4.87
+LST-100121,HOST-4063,Alfama,4,9,"Cosy 4BR studio-style home, Alfama",389.86,2026-11-16,2026-11-20,available,True,4.86
+LST-100122,HOST-4171,Estrela,2,4,"Cosy 2BR studio-style home, Estrela",105.12,2026-11-17,2026-11-26,available,True,4.45
+LST-100123,HOST-4180,Alfama,2,4,Modern 2BR with lift in Alfama,90.77,2026-11-15,2026-11-27,available,False,4.86
+LST-100124,HOST-4118,Chiado,3,5,Top-floor 3BR with city views in Chiado,396.02,2026-11-17,2026-11-23,available,True,4.6
+LST-100125,HOST-4092,Belem,4,8,"Tiled 4-bedroom home near the river, Belem",390.87,2026-11-15,2026-11-18,on_hold,False,4.77
+LST-100126,HOST-4118,Baixa,2,4,Bright 2BR flat in Baixa,122.56,2026-11-17,2026-11-20,on_hold,True,4.96
+LST-100127,HOST-4014,Principe Real,1,2,Classic Pombaline 1BR in Principe Real,56.68,2026-11-14,2026-11-22,on_hold,True,4.74
+LST-100128,HOST-4031,Principe Real,1,2,Quiet 1BR apartment with balcony in Principe Real,77.36,2026-11-14,2026-11-25,on_hold,False,4.61
+LST-100129,HOST-4038,Alfama,1,2,Quiet 1BR apartment with balcony in Alfama,90.32,2026-11-14,2026-11-28,available,True,
+LST-100130,HOST-4163,Principe Real,3,6,"Tiled 3-bedroom home near the river, Principe Real",411.25,2026-11-16,2026-11-30,available,True,
+LST-100131,HOST-4038,Alcantara,1,2,Classic Pombaline 1BR in Alcantara,71.73,2026-11-16,2026-11-19,available,True,4.68
+LST-100132,HOST-4071,Belem,1,2,Classic Pombaline 1BR in Belem,90.44,2026-11-16,2026-11-22,available,True,4.7
+LST-100133,HOST-4099,Bairro Alto,2,4,Top-floor 2BR with city views in Bairro Alto,110.86,2026-11-16,2026-11-24,available,False,4.46
+LST-100134,HOST-4171,Alfama,1,2,Quiet 1BR apartment with balcony in Alfama,117.46,2026-11-16,2026-11-25,available,False,4.74
+LST-100135,HOST-4086,Estrela,4,9,"Renovated 4BR near Tram 28, Estrela",375.49,2026-11-16,2026-11-25,available,True,
+LST-100136,HOST-4092,Chiado,4,9,"Cosy 4BR studio-style home, Chiado",418.01,2026-11-14,2026-11-24,available,True,4.47
+LST-100137,HOST-4152,Chiado,1,2,"Cosy 1BR studio-style home, Chiado",82.01,2026-11-15,2026-11-19,on_hold,False,4.43
+LST-100138,HOST-4086,Alcantara,2,4,"Cosy 2BR studio-style home, Alcantara",88.57,2026-11-15,2026-11-21,available,True,4.22
+LST-100139,HOST-4038,Estrela,1,2,Bright 1BR flat in Estrela,85.1,2026-11-16,2026-11-23,available,False,4.44
+LST-100140,HOST-4176,Belem,1,2,"Sunny 1-bedroom home for 2 guests, Belem",99.42,2026-11-15,2026-11-24,available,False,4.71
+LST-100141,HOST-4099,Principe Real,2,4,Modern 2BR with lift in Principe Real,155.7,2026-11-17,2026-11-20,available,True,4.69
+LST-100142,HOST-4105,Chiado,3,5,"Renovated 3BR near Tram 28, Chiado",318.12,2026-11-17,2026-11-18,available,False,4.97
+LST-100143,HOST-4152,Baixa,1,2,Quiet 1BR apartment with balcony in Baixa,65.33,2026-11-16,2026-11-23,on_hold,True,4.98
+LST-100144,HOST-4099,Alfama,1,2,"Tiled 1-bedroom home near the river, Alfama",120.28,2026-11-15,2026-11-23,available,False,4.89
+LST-100145,HOST-4092,Graca,1,2,"Cosy 1BR studio-style home, Graca",57.03,2026-11-16,2026-11-30,on_hold,True,4.54
+LST-100146,HOST-4171,Belem,2,4,"Sunny 2-bedroom home for 4 guests, Belem",115.27,2026-11-15,2026-11-27,available,True,4.93
+LST-100147,HOST-4105,Baixa,1,2,Classic Pombaline 1BR in Baixa,109.85,2026-11-15,2026-11-28,available,False,4.72
+LST-100148,HOST-4124,Estrela,3,6,"Renovated 3BR near Tram 28, Estrela",271.0,2026-11-16,2026-11-29,available,True,4.93
+LST-100149,HOST-4092,Alfama,3,7,"Cosy 3BR studio-style home, Alfama",413.76,2026-11-15,2026-11-23,available,True,4.93
+LST-100150,HOST-4112,Parque das Nacoes,1,2,Bright 1BR flat in Parque das Nacoes,123.15,2026-11-15,2026-11-26,available,True,4.78
+LST-100151,HOST-4014,Estrela,2,3,"Cosy 2BR studio-style home, Estrela",125.02,2026-11-16,2026-11-22,available,True,4.82
+LST-100152,HOST-4163,Principe Real,4,7,Classic Pombaline 4BR in Principe Real,297.08,2026-11-17,2026-11-22,on_hold,False,4.88
+LST-100153,HOST-4171,Baixa,2,5,Bright 2BR flat in Baixa,93.47,2026-11-17,2026-11-19,booked,True,4.69
+LST-100154,HOST-4167,Alfama,2,5,Quiet 2BR apartment with balcony in Alfama,138.74,2026-11-14,2026-11-19,available,True,4.61
+LST-100155,HOST-4017,Baixa,2,4,Modern 2BR with lift in Baixa,118.93,2026-11-16,2026-11-26,available,True,4.32
+LST-100156,HOST-4163,Chiado,1,2,"Sunny 1-bedroom home for 2 guests, Chiado",83.7,2026-11-14,2026-11-22,available,True,4.8
+LST-100157,HOST-4092,Principe Real,3,6,Modern 3BR with lift in Principe Real,398.63,2026-11-15,2026-11-20,available,False,4.82
+LST-100158,HOST-4146,Chiado,1,2,Top-floor 1BR with city views in Chiado,126.25,2026-11-15,2026-11-21,available,True,4.79
+LST-100159,HOST-4152,Alfama,2,4,Top-floor 2BR with city views in Alfama,86.86,2026-11-14,2026-11-22,on_hold,True,4.55
+LST-100160,HOST-4105,Parque das Nacoes,1,2,"Cosy 1BR studio-style home, Parque das Nacoes",60.39,2026-11-17,2026-11-23,available,True,4.86
+LST-100161,HOST-4002,Alcantara,2,4,Top-floor 2BR with city views in Alcantara,103.22,2026-11-16,2026-11-18,available,True,4.77
+LST-100162,HOST-4044,Alfama,1,2,"Renovated 1BR near Tram 28, Alfama",66.56,2026-11-16,2026-11-30,on_hold,False,4.71
+LST-100163,HOST-4031,Alfama,2,4,Bright 2BR flat in Alfama,98.37,2026-11-16,2026-11-19,on_hold,False,4.3
+LST-100164,HOST-4146,Principe Real,1,2,"Family 1-bedroom flat for up to 2, Principe Real",67.3,2026-11-17,2026-11-25,on_hold,False,4.94
+LST-100165,HOST-4099,Baixa,1,2,Quiet 1BR apartment with balcony in Baixa,63.32,2026-11-16,2026-11-26,available,True,4.71
+LST-100166,HOST-4167,Estrela,1,2,"Sunny 1-bedroom home for 2 guests, Estrela",92.01,2026-11-15,2026-11-26,booked,True,4.9
+LST-100167,HOST-4146,Belem,3,7,Bright 3BR flat in Belem,330.48,2026-11-17,2026-11-26,available,True,4.45
+LST-100168,HOST-4163,Principe Real,3,7,Bright 3BR flat in Principe Real,415.15,2026-11-15,2026-11-29,available,False,4.98
+LST-100169,HOST-4124,Baixa,1,2,"Sunny 1-bedroom home for 2 guests, Baixa",66.03,2026-11-15,2026-11-18,on_hold,True,4.86
+LST-100170,HOST-4044,Belem,3,6,"Sunny 3-bedroom home for 6 guests, Belem",367.94,2026-11-16,2026-11-18,available,True,4.92
+LST-100171,HOST-4052,Graca,1,2,"Renovated 1BR near Tram 28, Graca",86.82,2026-11-16,2026-11-25,available,True,4.96
+LST-100172,HOST-4139,Chiado,3,6,"Cosy 3BR studio-style home, Chiado",360.19,2026-11-16,2026-11-28,on_hold,True,4.72
+LST-100173,HOST-4044,Baixa,1,2,Modern 1BR with lift in Baixa,99.91,2026-11-17,2026-11-23,available,True,4.77
+LST-100174,HOST-4152,Baixa,1,2,Bright 1BR flat in Baixa,64.03,2026-11-14,2026-11-22,booked,False,4.57
+LST-100175,HOST-4167,Graca,3,6,"Sunny 3-bedroom home for 6 guests, Graca",395.25,2026-11-14,2026-11-28,booked,True,4.96
+LST-100176,HOST-4158,Chiado,3,6,Classic Pombaline 3BR in Chiado,384.82,2026-11-16,2026-11-19,available,False,4.89
+LST-100177,HOST-4002,Principe Real,1,2,"Cosy 1BR studio-style home, Principe Real",63.82,2026-11-15,2026-11-30,available,False,4.76
+LST-100178,HOST-4112,Estrela,3,7,Bright 3BR flat in Estrela,335.1,2026-11-14,2026-11-28,available,False,4.71
+LST-100179,HOST-4057,Parque das Nacoes,4,8,Bright 4BR flat in Parque das Nacoes,315.59,2026-11-15,2026-11-23,booked,False,4.98
+LST-100180,HOST-4118,Chiado,3,5,Quiet 3BR apartment with balcony in Chiado,406.91,2026-11-16,2026-11-26,available,False,4.52
+LST-100181,HOST-4171,Belem,2,5,"Tiled 2-bedroom home near the river, Belem",122.32,2026-11-14,2026-11-20,available,True,4.45
+LST-100182,HOST-4146,Baixa,3,6,Modern 3BR with lift in Baixa,397.1,2026-11-14,2026-11-18,available,True,4.49
+LST-100183,HOST-4017,Chiado,4,10,Top-floor 4BR with city views in Chiado,368.73,2026-11-15,2026-11-19,available,False,4.57
+LST-100184,HOST-4038,Parque das Nacoes,3,5,"Cosy 3BR studio-style home, Parque das Nacoes",261.0,2026-11-16,2026-11-24,available,False,4.78
+LST-100185,HOST-4146,Bairro Alto,2,4,Quiet 2BR apartment with balcony in Bairro Alto,127.37,2026-11-15,2026-11-19,available,True,4.7
+LST-100186,HOST-4002,Graca,1,2,"Tiled 1-bedroom home near the river, Graca",110.09,2026-11-16,2026-11-20,available,False,4.97
+LST-100187,HOST-4017,Chiado,2,4,Quiet 2BR apartment with balcony in Chiado,104.07,2026-11-14,2026-11-19,available,True,4.75
+LST-100188,HOST-4105,Alfama,1,2,"Cosy 1BR studio-style home, Alfama",82.49,2026-11-17,2026-11-26,available,True,4.92
+LST-100189,HOST-4099,Baixa,1,2,"Cosy 1BR studio-style home, Baixa",89.32,2026-11-14,2026-11-28,available,True,4.97
+LST-100190,HOST-4167,Bairro Alto,2,4,"Sunny 2-bedroom home for 4 guests, Bairro Alto",113.32,2026-11-16,2026-11-21,available,True,4.98
+LST-100191,HOST-4063,Bairro Alto,1,2,"Tiled 1-bedroom home near the river, Bairro Alto",72.43,2026-11-15,2026-11-26,available,True,4.8
+LST-100192,HOST-4009,Chiado,1,2,"Cosy 1BR studio-style home, Chiado",55.06,2026-11-15,2026-11-28,on_hold,False,4.85
+LST-100193,HOST-4163,Alcantara,1,2,Classic Pombaline 1BR in Alcantara,81.47,2026-11-15,2026-11-24,available,False,4.56
+LST-100194,HOST-4002,Bairro Alto,2,5,Quiet 2BR apartment with balcony in Bairro Alto,124.56,2026-11-16,2026-11-27,available,True,4.93
+LST-100195,HOST-4023,Bairro Alto,1,2,"Renovated 1BR near Tram 28, Bairro Alto",64.52,2026-11-15,2026-11-26,on_hold,False,4.73
+LST-100196,HOST-4112,Graca,1,2,"Family 1-bedroom flat for up to 2, Graca",83.01,2026-11-14,2026-11-25,available,False,4.81
+LST-100197,HOST-4139,Alfama,2,3,"Cosy 2BR studio-style home, Alfama",100.5,2026-11-15,2026-11-23,on_hold,True,
+LST-100198,HOST-4031,Baixa,3,7,Classic Pombaline 3BR in Baixa,241.12,2026-11-16,2026-11-29,available,False,4.88
+LST-100199,HOST-4139,Graca,1,2,Bright 1BR flat in Graca,70.67,2026-11-15,2026-11-30,available,False,4.78
+LST-100200,HOST-4078,Parque das Nacoes,1,2,"Tiled 1-bedroom home near the river, Parque das Nacoes",95.52,2026-11-14,2026-11-26,booked,False,4.65
+LST-100201,HOST-4139,Graca,1,2,Bright 1BR flat in Graca,56.77,2026-11-14,2026-11-29,available,False,4.87
+LST-100202,HOST-4152,Principe Real,4,8,"Renovated 4BR near Tram 28, Principe Real",301.75,2026-11-15,2026-11-20,available,True,4.58
+LST-100203,HOST-4092,Chiado,2,4,"Tiled 2-bedroom home near the river, Chiado",92.42,2026-11-17,2026-11-20,available,True,4.84
+LST-100204,HOST-4133,Belem,2,3,"Sunny 2-bedroom home for 3 guests, Belem",149.65,2026-11-16,2026-11-30,available,True,4.92
+LST-100205,HOST-4146,Graca,1,2,Modern 1BR with lift in Graca,56.76,2026-11-16,2026-11-21,on_hold,True,4.73
+LST-100206,HOST-4176,Graca,1,2,"Tiled 1-bedroom home near the river, Graca",71.46,2026-11-16,2026-11-23,on_hold,False,4.79
+LST-100207,HOST-4009,Chiado,4,10,"Tiled 4-bedroom home near the river, Chiado",349.74,2026-11-15,2026-11-29,on_hold,False,4.6
+LST-100208,HOST-4146,Baixa,3,6,"Family 3-bedroom flat for up to 6, Baixa",335.92,2026-11-16,2026-11-24,available,True,4.88
+LST-100209,HOST-4071,Alfama,2,4,Quiet 2BR apartment with balcony in Alfama,128.42,2026-11-16,2026-11-27,available,False,4.56
+LST-100210,HOST-4038,Estrela,1,2,Modern 1BR with lift in Estrela,91.43,2026-11-15,2026-11-18,available,True,4.7
+LST-100211,HOST-4167,Principe Real,2,3,"Tiled 2-bedroom home near the river, Principe Real",95.59,2026-11-14,2026-11-26,available,True,4.83
+LST-100212,HOST-4078,Chiado,2,4,Classic Pombaline 2BR in Chiado,127.0,2026-11-14,2026-11-23,available,False,4.83
+LST-100213,HOST-4180,Bairro Alto,2,3,Bright 2BR flat in Bairro Alto,92.82,2026-11-17,2026-11-25,available,True,4.69
+LST-100214,HOST-4146,Estrela,3,6,"Tiled 3-bedroom home near the river, Estrela",365.94,2026-11-17,2026-11-23,available,False,4.49
+LST-100215,HOST-4171,Baixa,1,2,Modern 1BR with lift in Baixa,106.49,2026-11-16,2026-11-29,available,True,4.85
+LST-100216,HOST-4014,Parque das Nacoes,3,5,"Family 3-bedroom flat for up to 5, Parque das Nacoes",350.53,2026-11-17,2026-11-28,available,True,
+LST-100217,HOST-4086,Baixa,2,4,"Sunny 2-bedroom home for 4 guests, Baixa",114.96,2026-11-15,2026-11-27,available,True,4.56
+LST-100218,HOST-4176,Alfama,3,6,Quiet 3BR apartment with balcony in Alfama,399.0,2026-11-16,2026-11-30,available,True,4.96
+LST-100219,HOST-4017,Baixa,1,2,"Sunny 1-bedroom home for 2 guests, Baixa",58.75,2026-11-16,2026-11-29,on_hold,False,4.52
+LST-100220,HOST-4118,Graca,2,4,Modern 2BR with lift in Graca,93.76,2026-11-17,2026-11-28,booked,True,4.86
+LST-100221,HOST-4133,Parque das Nacoes,3,7,"Sunny 3-bedroom home for 7 guests, Parque das Nacoes",366.95,2026-11-14,2026-11-19,available,True,4.9
+LST-100222,HOST-4112,Estrela,2,3,Classic Pombaline 2BR in Estrela,88.12,2026-11-16,2026-11-22,available,True,
+LST-100223,HOST-4052,Baixa,3,6,Quiet 3BR apartment with balcony in Baixa,294.46,2026-11-15,2026-11-25,available,False,4.71
+LST-100224,HOST-4099,Estrela,2,4,Modern 2BR with lift in Estrela,178.61,2026-11-15,2026-11-22,available,False,4.91
+LST-100225,HOST-4044,Belem,1,2,Bright 1BR flat in Belem,73.41,2026-11-17,2026-11-18,on_hold,False,4.89
+LST-100226,HOST-4092,Alcantara,2,3,Bright 2BR flat in Alcantara,100.09,2026-11-17,2026-11-29,available,True,4.77
+LST-100227,HOST-4017,Bairro Alto,4,7,Bright 4BR flat in Bairro Alto,283.95,2026-11-16,2026-11-29,available,False,4.72
+LST-100228,HOST-4057,Belem,1,2,Quiet 1BR apartment with balcony in Belem,123.46,2026-11-14,2026-11-21,available,False,4.53
+LST-100229,HOST-4163,Bairro Alto,1,2,"Tiled 1-bedroom home near the river, Bairro Alto",130.11,2026-11-17,2026-11-20,available,False,4.86
+LST-100230,HOST-4124,Baixa,2,3,Bright 2BR flat in Baixa,130.17,2026-11-16,2026-11-27,available,True,4.85
+LST-100231,HOST-4063,Estrela,1,2,Top-floor 1BR with city views in Estrela,77.1,2026-11-15,2026-11-21,on_hold,False,4.78
+LST-100232,HOST-4176,Chiado,1,2,"Renovated 1BR near Tram 28, Chiado",69.52,2026-11-14,2026-11-26,on_hold,False,4.82
+LST-100233,HOST-4146,Baixa,3,6,Classic Pombaline 3BR in Baixa,271.73,2026-11-17,2026-11-22,on_hold,False,4.92
+LST-100234,HOST-4002,Chiado,4,6,"Tiled 4-bedroom home near the river, Chiado",368.48,2026-11-17,2026-11-21,available,True,4.81
+LST-100235,HOST-4105,Chiado,1,2,"Sunny 1-bedroom home for 2 guests, Chiado",75.32,2026-11-15,2026-11-22,available,True,4.89
+LST-100236,HOST-4092,Belem,3,6,Quiet 3BR apartment with balcony in Belem,277.97,2026-11-15,2026-11-25,available,True,4.9
+LST-100237,HOST-4139,Graca,1,2,Modern 1BR with lift in Graca,103.79,2026-11-15,2026-11-21,on_hold,False,4.79
+LST-100238,HOST-4002,Bairro Alto,2,5,Classic Pombaline 2BR in Bairro Alto,106.51,2026-11-15,2026-11-27,available,True,4.43
+LST-100239,HOST-4099,Graca,2,4,"Renovated 2BR near Tram 28, Graca",89.22,2026-11-14,2026-11-26,available,False,4.24
+LST-100240,HOST-4118,Alcantara,3,7,"Cosy 3BR studio-style home, Alcantara",337.5,2026-11-16,2026-11-19,booked,True,4.71
+LST-100241,HOST-4152,Graca,2,3,Classic Pombaline 2BR in Graca,172.35,2026-11-14,2026-11-28,available,True,4.7
+LST-100242,HOST-4158,Parque das Nacoes,1,2,"Sunny 1-bedroom home for 2 guests, Parque das Nacoes",95.17,2026-11-16,2026-11-25,available,True,4.8
+LST-100243,HOST-4152,Chiado,1,2,"Family 1-bedroom flat for up to 2, Chiado",57.85,2026-11-15,2026-11-23,available,True,4.54
+LST-100244,HOST-4167,Parque das Nacoes,3,5,"Sunny 3-bedroom home for 5 guests, Parque das Nacoes",214.71,2026-11-15,2026-11-18,available,False,4.72
+LST-100245,HOST-4078,Baixa,1,2,Bright 1BR flat in Baixa,62.07,2026-11-15,2026-11-19,on_hold,True,4.88
+LST-100246,HOST-4057,Chiado,2,4,Classic Pombaline 2BR in Chiado,88.62,2026-11-16,2026-11-21,booked,True,4.96
+LST-100247,HOST-4071,Alfama,1,2,"Tiled 1-bedroom home near the river, Alfama",72.47,2026-11-16,2026-11-22,available,True,
+LST-100248,HOST-4167,Parque das Nacoes,2,3,Quiet 2BR apartment with balcony in Parque das Nacoes,86.07,2026-11-15,2026-11-30,available,False,4.84
+LST-100249,HOST-4038,Alfama,2,3,Classic Pombaline 2BR in Alfama,134.2,2026-11-17,2026-11-26,available,True,4.93
+LST-100250,HOST-4139,Bairro Alto,1,2,Bright 1BR flat in Bairro Alto,95.87,2026-11-15,2026-11-19,available,False,4.77
+LST-100251,HOST-4057,Graca,2,5,"Renovated 2BR near Tram 28, Graca",120.83,2026-11-14,2026-11-20,available,False,4.88
+LST-100252,HOST-4176,Bairro Alto,1,2,"Family 1-bedroom flat for up to 2, Bairro Alto",96.71,2026-11-15,2026-11-28,on_hold,True,4.88
+LST-100253,HOST-4124,Baixa,1,2,Bright 1BR flat in Baixa,62.66,2026-11-16,2026-11-29,available,False,4.9
+LST-100254,HOST-4023,Baixa,1,2,"Renovated 1BR near Tram 28, Baixa",71.61,2026-11-17,2026-11-30,available,True,4.69
+LST-100255,HOST-4063,Graca,1,2,"Cosy 1BR studio-style home, Graca",82.17,2026-11-15,2026-11-22,available,False,4.99
+LST-100256,HOST-4124,Alfama,2,3,Quiet 2BR apartment with balcony in Alfama,99.27,2026-11-14,2026-11-20,available,False,4.41
+LST-100257,HOST-4052,Graca,1,2,"Sunny 1-bedroom home for 2 guests, Graca",62.04,2026-11-15,2026-11-24,available,True,4.98
+LST-100258,HOST-4124,Belem,3,6,Modern 3BR with lift in Belem,372.83,2026-11-16,2026-11-23,available,False,
+LST-100259,HOST-4063,Bairro Alto,3,6,"Cosy 3BR studio-style home, Bairro Alto",388.55,2026-11-14,2026-11-28,on_hold,True,4.71
+LST-100260,HOST-4071,Baixa,1,2,"Renovated 1BR near Tram 28, Baixa",66.52,2026-11-15,2026-11-27,available,False,4.45
+LST-100261,HOST-4023,Baixa,1,2,"Cosy 1BR studio-style home, Baixa",69.93,2026-11-17,2026-11-25,on_hold,True,4.6
+LST-100262,HOST-4052,Graca,1,2,Modern 1BR with lift in Graca,120.49,2026-11-15,2026-11-24,available,False,4.35
+LST-100263,HOST-4002,Principe Real,4,7,Bright 4BR flat in Principe Real,212.81,2026-11-17,2026-11-26,available,True,4.88
+LST-100264,HOST-4139,Bairro Alto,1,2,Bright 1BR flat in Bairro Alto,86.72,2026-11-15,2026-11-22,available,True,4.82
+LST-100265,HOST-4118,Estrela,2,5,Quiet 2BR apartment with balcony in Estrela,114.92,2026-11-16,2026-11-25,available,True,4.57
+LST-100266,HOST-4009,Parque das Nacoes,1,2,"Sunny 1-bedroom home for 2 guests, Parque das Nacoes",59.19,2026-11-15,2026-11-26,available,True,4.37
+LST-100267,HOST-4092,Alfama,2,3,Classic Pombaline 2BR in Alfama,120.6,2026-11-16,2026-11-19,available,False,4.95
+LST-100268,HOST-4009,Alfama,1,2,"Family 1-bedroom flat for up to 2, Alfama",90.25,2026-11-16,2026-11-20,available,False,4.7
+LST-100269,HOST-4038,Bairro Alto,1,2,Classic Pombaline 1BR in Bairro Alto,111.41,2026-11-15,2026-11-24,on_hold,False,4.55
+LST-100270,HOST-4014,Alfama,1,2,Classic Pombaline 1BR in Alfama,71.13,2026-11-15,2026-11-25,booked,False,4.76
+LST-100271,HOST-4014,Principe Real,1,2,"Tiled 1-bedroom home near the river, Principe Real",90.51,2026-11-15,2026-11-22,booked,False,4.46
+LST-100272,HOST-4057,Chiado,1,2,Bright 1BR flat in Chiado,63.46,2026-11-16,2026-11-28,available,False,4.97
+LST-100273,HOST-4014,Principe Real,1,2,Bright 1BR flat in Principe Real,73.01,2026-11-14,2026-11-24,on_hold,False,4.39
+LST-100274,HOST-4017,Graca,3,6,"Tiled 3-bedroom home near the river, Graca",302.6,2026-11-14,2026-11-21,on_hold,False,4.7
+LST-100275,HOST-4031,Bairro Alto,1,2,Quiet 1BR apartment with balcony in Bairro Alto,89.48,2026-11-17,2026-11-22,on_hold,True,4.87
+LST-100276,HOST-4038,Principe Real,3,6,Classic Pombaline 3BR in Principe Real,403.06,2026-11-14,2026-11-23,available,False,4.74
+LST-100277,HOST-4009,Chiado,2,5,"Tiled 2-bedroom home near the river, Chiado",91.82,2026-11-17,2026-11-24,available,False,4.49
+LST-100278,HOST-4044,Principe Real,2,5,"Sunny 2-bedroom home for 5 guests, Principe Real",173.13,2026-11-17,2026-11-26,booked,False,4.31
+LST-100279,HOST-4133,Parque das Nacoes,1,2,"Tiled 1-bedroom home near the river, Parque das Nacoes",69.48,2026-11-15,2026-11-19,available,True,4.82
+LST-100280,HOST-4105,Graca,3,6,Top-floor 3BR with city views in Graca,289.04,2026-11-16,2026-11-25,available,False,4.98
+LST-100281,HOST-4092,Alfama,1,2,Quiet 1BR apartment with balcony in Alfama,98.8,2026-11-14,2026-11-18,available,True,4.4
+LST-100282,HOST-4009,Baixa,1,2,"Cosy 1BR studio-style home, Baixa",130.11,2026-11-16,2026-11-24,available,False,4.57
+LST-100283,HOST-4002,Bairro Alto,1,2,"Renovated 1BR near Tram 28, Bairro Alto",57.74,2026-11-15,2026-11-30,available,True,4.94
+LST-100284,HOST-4063,Bairro Alto,1,2,"Family 1-bedroom flat for up to 2, Bairro Alto",76.6,2026-11-16,2026-11-24,on_hold,False,4.89
+LST-100285,HOST-4171,Alfama,3,6,"Family 3-bedroom flat for up to 6, Alfama",328.74,2026-11-15,2026-11-20,available,False,4.97
+LST-100286,HOST-4031,Parque das Nacoes,1,2,Quiet 1BR apartment with balcony in Parque das Nacoes,85.39,2026-11-15,2026-11-28,available,True,4.98
+LST-100287,HOST-4017,Estrela,2,4,"Tiled 2-bedroom home near the river, Estrela",141.83,2026-11-14,2026-11-27,available,True,4.68
+LST-100288,HOST-4014,Bairro Alto,1,2,"Renovated 1BR near Tram 28, Bairro Alto",86.73,2026-11-17,2026-11-27,available,True,4.44
+LST-100289,HOST-4171,Estrela,1,2,"Family 1-bedroom flat for up to 2, Estrela",67.66,2026-11-16,2026-11-20,on_hold,False,4.89
+LST-100290,HOST-4071,Alfama,1,2,Top-floor 1BR with city views in Alfama,116.91,2026-11-14,2026-11-23,available,False,4.69
+LST-100291,HOST-4139,Chiado,1,2,"Family 1-bedroom flat for up to 2, Chiado",119.85,2026-11-14,2026-11-30,on_hold,False,4.88
+LST-100292,HOST-4180,Chiado,2,5,"Tiled 2-bedroom home near the river, Chiado",142.03,2026-11-16,2026-11-25,available,True,
+LST-100293,HOST-4171,Alcantara,1,2,Top-floor 1BR with city views in Alcantara,68.77,2026-11-15,2026-11-25,on_hold,True,4.51
+LST-100294,HOST-4158,Chiado,1,2,Quiet 1BR apartment with balcony in Chiado,58.39,2026-11-17,2026-11-26,on_hold,True,4.97
+LST-100295,HOST-4017,Estrela,1,2,"Tiled 1-bedroom home near the river, Estrela",59.05,2026-11-14,2026-11-21,on_hold,False,4.84
+LST-100296,HOST-4031,Alcantara,1,2,"Sunny 1-bedroom home for 2 guests, Alcantara",66.52,2026-11-14,2026-11-22,on_hold,True,4.94
+LST-100297,HOST-4146,Bairro Alto,2,4,"Cosy 2BR studio-style home, Bairro Alto",179.98,2026-11-16,2026-11-21,booked,True,4.52
+LST-100298,HOST-4139,Baixa,3,7,Top-floor 3BR with city views in Baixa,384.48,2026-11-15,2026-11-22,on_hold,False,4.52
+LST-100299,HOST-4078,Graca,3,5,Quiet 3BR apartment with balcony in Graca,410.65,2026-11-17,2026-11-19,available,True,4.57
+LST-100300,HOST-4146,Estrela,2,5,Quiet 2BR apartment with balcony in Estrela,144.29,2026-11-15,2026-11-30,available,False,4.72
+LST-100301,HOST-4044,Principe Real,2,3,Bright 2BR flat in Principe Real,123.11,2026-11-15,2026-11-25,available,True,4.88
+LST-100302,HOST-4112,Baixa,3,7,Bright 3BR flat in Baixa,405.02,2026-11-16,2026-11-28,available,True,4.64
+LST-100303,HOST-4112,Chiado,1,2,Top-floor 1BR with city views in Chiado,104.01,2026-11-16,2026-11-27,available,True,
+LST-100304,HOST-4124,Parque das Nacoes,1,2,"Cosy 1BR studio-style home, Parque das Nacoes",84.28,2026-11-16,2026-11-18,available,True,4.84
+LST-100305,HOST-4002,Alfama,1,2,"Sunny 1-bedroom home for 2 guests, Alfama",62.81,2026-11-15,2026-11-28,on_hold,True,
+LST-100306,HOST-4078,Baixa,3,5,Top-floor 3BR with city views in Baixa,368.45,2026-11-15,2026-11-26,on_hold,True,4.71
+LST-100307,HOST-4099,Graca,3,5,Classic Pombaline 3BR in Graca,383.3,2026-11-15,2026-11-21,available,True,4.65
+LST-100308,HOST-4057,Alfama,2,4,Bright 2BR flat in Alfama,165.43,2026-11-14,2026-11-30,available,False,4.52
+LST-100309,HOST-4071,Baixa,3,5,Classic Pombaline 3BR in Baixa,405.01,2026-11-16,2026-11-18,available,True,4.7
+LST-100310,HOST-4038,Belem,2,3,Quiet 2BR apartment with balcony in Belem,102.36,2026-11-16,2026-11-19,available,False,4.82
+LST-100311,HOST-4031,Bairro Alto,1,2,Quiet 1BR apartment with balcony in Bairro Alto,56.91,2026-11-15,2026-11-29,on_hold,False,4.93
+LST-100312,HOST-4152,Belem,2,3,"Tiled 2-bedroom home near the river, Belem",131.95,2026-11-16,2026-11-25,available,True,4.86
+LST-100313,HOST-4063,Baixa,1,2,"Renovated 1BR near Tram 28, Baixa",63.41,2026-11-17,2026-11-19,on_hold,True,4.97
+LST-100314,HOST-4171,Alfama,2,3,"Cosy 2BR studio-style home, Alfama",131.06,2026-11-16,2026-11-30,available,True,4.95
+LST-100315,HOST-4017,Estrela,2,4,Quiet 2BR apartment with balcony in Estrela,142.75,2026-11-16,2026-11-29,on_hold,False,4.75
+LST-100316,HOST-4052,Estrela,3,6,"Renovated 3BR near Tram 28, Estrela",239.68,2026-11-15,2026-11-23,available,False,4.99
+LST-100317,HOST-4152,Alfama,3,6,Quiet 3BR apartment with balcony in Alfama,232.6,2026-11-17,2026-11-24,available,True,4.75
+LST-100318,HOST-4052,Bairro Alto,3,6,Quiet 3BR apartment with balcony in Bairro Alto,235.26,2026-11-14,2026-11-24,available,False,4.83
+LST-100319,HOST-4112,Baixa,2,3,Bright 2BR flat in Baixa,108.96,2026-11-17,2026-11-26,available,False,4.84
+LST-100320,HOST-4017,Alfama,2,4,Classic Pombaline 2BR in Alfama,116.56,2026-11-17,2026-11-30,available,True,4.98
+LST-100321,HOST-4031,Graca,1,2,Modern 1BR with lift in Graca,69.62,2026-11-15,2026-11-19,on_hold,False,4.45
+LST-100322,HOST-4133,Principe Real,2,5,"Family 2-bedroom flat for up to 5, Principe Real",104.38,2026-11-14,2026-11-21,available,False,4.87
+LST-100323,HOST-4038,Principe Real,1,2,"Tiled 1-bedroom home near the river, Principe Real",102.31,2026-11-17,2026-11-30,available,False,4.87
+LST-100324,HOST-4180,Chiado,1,2,Top-floor 1BR with city views in Chiado,88.87,2026-11-16,2026-11-29,available,True,4.68
+LST-100325,HOST-4002,Estrela,2,4,"Sunny 2-bedroom home for 4 guests, Estrela",86.16,2026-11-14,2026-11-23,available,True,4.38
+LST-100326,HOST-4171,Baixa,1,2,"Renovated 1BR near Tram 28, Baixa",134.8,2026-11-14,2026-11-30,available,True,4.86
+LST-100327,HOST-4052,Alfama,1,2,"Renovated 1BR near Tram 28, Alfama",62.12,2026-11-17,2026-11-18,available,True,4.85
+LST-100328,HOST-4009,Chiado,1,2,"Renovated 1BR near Tram 28, Chiado",79.68,2026-11-16,2026-11-27,on_hold,False,4.98
+LST-100329,HOST-4152,Bairro Alto,4,8,Bright 4BR flat in Bairro Alto,293.43,2026-11-15,2026-11-21,available,True,4.44
+LST-100330,HOST-4163,Alcantara,1,2,"Cosy 1BR studio-style home, Alcantara",55.6,2026-11-16,2026-11-29,on_hold,True,4.63
+LST-100331,HOST-4078,Principe Real,1,2,"Renovated 1BR near Tram 28, Principe Real",116.82,2026-11-16,2026-11-26,available,False,4.8
+LST-100332,HOST-4180,Estrela,2,4,"Tiled 2-bedroom home near the river, Estrela",159.6,2026-11-16,2026-11-23,available,False,4.88
+LST-100333,HOST-4158,Alcantara,4,7,"Sunny 4-bedroom home for 7 guests, Alcantara",251.19,2026-11-15,2026-11-27,available,True,4.31
+LST-100334,HOST-4146,Alfama,2,3,"Renovated 2BR near Tram 28, Alfama",100.56,2026-11-16,2026-11-30,booked,True,4.81
+LST-100335,HOST-4171,Chiado,1,2,"Sunny 1-bedroom home for 2 guests, Chiado",119.39,2026-11-16,2026-11-19,available,True,4.6
+LST-100336,HOST-4063,Graca,2,4,"Renovated 2BR near Tram 28, Graca",133.42,2026-11-17,2026-11-25,available,True,4.99
+LST-100337,HOST-4105,Belem,1,2,Top-floor 1BR with city views in Belem,57.46,2026-11-16,2026-11-20,booked,False,
+LST-100338,HOST-4099,Chiado,1,2,Top-floor 1BR with city views in Chiado,58.25,2026-11-16,2026-11-18,on_hold,False,4.95
+LST-100339,HOST-4052,Baixa,1,2,Top-floor 1BR with city views in Baixa,124.5,2026-11-14,2026-11-28,available,True,4.93
+LST-100340,HOST-4163,Chiado,2,4,"Family 2-bedroom flat for up to 4, Chiado",96.8,2026-11-15,2026-11-25,available,False,4.39
+LST-100341,HOST-4017,Alfama,1,2,"Sunny 1-bedroom home for 2 guests, Alfama",68.12,2026-11-14,2026-11-23,on_hold,True,4.37
+LST-100342,HOST-4099,Bairro Alto,2,4,"Cosy 2BR studio-style home, Bairro Alto",103.33,2026-11-15,2026-11-29,available,True,
+LST-100343,HOST-4139,Estrela,1,2,"Sunny 1-bedroom home for 2 guests, Estrela",79.44,2026-11-17,2026-11-24,available,True,
+LST-100344,HOST-4176,Baixa,3,6,"Family 3-bedroom flat for up to 6, Baixa",289.64,2026-11-14,2026-11-18,on_hold,False,4.49
+LST-100345,HOST-4180,Chiado,2,3,Modern 2BR with lift in Chiado,163.22,2026-11-15,2026-11-19,available,True,4.31
+LST-100346,HOST-4052,Alcantara,3,5,Bright 3BR flat in Alcantara,321.57,2026-11-16,2026-11-23,available,True,4.68
+LST-100347,HOST-4078,Chiado,4,7,Quiet 4BR apartment with balcony in Chiado,285.33,2026-11-15,2026-11-27,available,False,4.46
+LST-100348,HOST-4112,Principe Real,2,4,Top-floor 2BR with city views in Principe Real,99.4,2026-11-16,2026-11-25,available,True,4.51
+LST-100349,HOST-4163,Baixa,1,2,Top-floor 1BR with city views in Baixa,67.28,2026-11-16,2026-11-20,on_hold,True,4.74
+LST-100350,HOST-4112,Graca,2,3,Bright 2BR flat in Graca,106.37,2026-11-14,2026-11-25,available,False,4.44
+LST-100351,HOST-4009,Chiado,2,3,Bright 2BR flat in Chiado,152.29,2026-11-15,2026-11-24,available,True,4.81
+LST-100352,HOST-4180,Estrela,1,2,Top-floor 1BR with city views in Estrela,60.35,2026-11-17,2026-11-20,on_hold,True,4.6
+LST-100353,HOST-4176,Bairro Alto,3,6,Top-floor 3BR with city views in Bairro Alto,348.19,2026-11-15,2026-11-22,available,True,4.61
+LST-100354,HOST-4071,Parque das Nacoes,2,5,"Renovated 2BR near Tram 28, Parque das Nacoes",158.55,2026-11-15,2026-11-30,available,True,4.97
+LST-100355,HOST-4112,Principe Real,3,7,"Cosy 3BR studio-style home, Principe Real",357.85,2026-11-17,2026-11-23,on_hold,False,4.87
+LST-100356,HOST-4023,Belem,1,2,Top-floor 1BR with city views in Belem,69.38,2026-11-15,2026-11-22,booked,True,4.81
+LST-100357,HOST-4152,Bairro Alto,4,7,Quiet 4BR apartment with balcony in Bairro Alto,346.17,2026-11-17,2026-11-18,available,False,4.77
+LST-100358,HOST-4133,Bairro Alto,1,2,"Renovated 1BR near Tram 28, Bairro Alto",69.26,2026-11-15,2026-11-23,available,True,4.39
+LST-100359,HOST-4017,Estrela,2,4,Bright 2BR flat in Estrela,100.84,2026-11-16,2026-11-19,available,True,4.77
+LST-100360,HOST-4044,Alfama,2,4,Bright 2BR flat in Alfama,86.57,2026-11-17,2026-11-27,available,True,4.91
+LST-100361,HOST-4017,Bairro Alto,2,4,"Family 2-bedroom flat for up to 4, Bairro Alto",152.21,2026-11-16,2026-11-29,on_hold,True,
+LST-100362,HOST-4071,Chiado,1,2,Modern 1BR with lift in Chiado,85.74,2026-11-17,2026-11-26,booked,False,4.79
+LST-100363,HOST-4038,Graca,1,2,"Tiled 1-bedroom home near the river, Graca",115.88,2026-11-16,2026-11-21,on_hold,True,4.71
+LST-100364,HOST-4063,Alfama,2,5,"Family 2-bedroom flat for up to 5, Alfama",98.2,2026-11-15,2026-11-21,on_hold,True,4.56
+LST-100365,HOST-4176,Baixa,2,3,Modern 2BR with lift in Baixa,90.48,2026-11-16,2026-11-28,on_hold,False,4.76
+LST-100366,HOST-4038,Alfama,3,5,"Cosy 3BR studio-style home, Alfama",370.12,2026-11-14,2026-11-19,available,True,4.99
+LST-100367,HOST-4044,Alcantara,3,5,"Cosy 3BR studio-style home, Alcantara",343.24,2026-11-16,2026-11-21,available,True,4.38
+LST-100368,HOST-4092,Principe Real,1,2,"Sunny 1-bedroom home for 2 guests, Principe Real",103.51,2026-11-16,2026-11-20,available,True,4.97
+LST-100369,HOST-4092,Alcantara,1,2,Quiet 1BR apartment with balcony in Alcantara,86.42,2026-11-17,2026-11-23,available,True,4.81
+LST-100370,HOST-4092,Alcantara,2,4,"Sunny 2-bedroom home for 4 guests, Alcantara",100.69,2026-11-16,2026-11-25,on_hold,False,4.57
+LST-100371,HOST-4112,Alfama,3,6,Bright 3BR flat in Alfama,359.11,2026-11-14,2026-11-29,available,True,4.73
+LST-100372,HOST-4124,Parque das Nacoes,1,2,Bright 1BR flat in Parque das Nacoes,102.0,2026-11-14,2026-11-18,available,False,4.47
+LST-100373,HOST-4133,Parque das Nacoes,3,6,"Tiled 3-bedroom home near the river, Parque das Nacoes",398.35,2026-11-14,2026-11-21,available,True,4.46
+LST-100374,HOST-4017,Baixa,1,2,"Sunny 1-bedroom home for 2 guests, Baixa",115.05,2026-11-17,2026-11-21,available,True,4.94
+LST-100375,HOST-4017,Graca,2,3,"Renovated 2BR near Tram 28, Graca",152.69,2026-11-14,2026-11-20,available,False,4.82
+LST-100376,HOST-4031,Alfama,4,9,Quiet 4BR apartment with balcony in Alfama,379.25,2026-11-15,2026-11-18,on_hold,True,4.73
+LST-100377,HOST-4146,Bairro Alto,3,7,"Renovated 3BR near Tram 28, Bairro Alto",399.46,2026-11-16,2026-11-26,available,True,4.87
+LST-100378,HOST-4044,Bairro Alto,1,2,Top-floor 1BR with city views in Bairro Alto,96.93,2026-11-15,2026-11-19,available,True,4.97
+LST-100379,HOST-4023,Baixa,3,7,"Renovated 3BR near Tram 28, Baixa",301.0,2026-11-16,2026-11-24,on_hold,True,4.85
+LST-100380,HOST-4180,Graca,3,7,"Family 3-bedroom flat for up to 7, Graca",193.22,2026-11-17,2026-11-21,available,True,4.72
+LST-100381,HOST-4167,Alcantara,1,2,Classic Pombaline 1BR in Alcantara,90.52,2026-11-14,2026-11-19,available,False,4.58
+LST-100382,HOST-4167,Belem,1,2,Classic Pombaline 1BR in Belem,66.23,2026-11-14,2026-11-22,available,True,4.95
+LST-100383,HOST-4002,Baixa,2,3,Classic Pombaline 2BR in Baixa,143.94,2026-11-15,2026-11-18,available,False,4.67
+LST-100384,HOST-4180,Chiado,4,10,Modern 4BR with lift in Chiado,290.46,2026-11-17,2026-11-18,available,True,4.92
+LST-100385,HOST-4118,Parque das Nacoes,2,4,Modern 2BR with lift in Parque das Nacoes,160.93,2026-11-16,2026-11-22,available,True,4.85
+LST-100386,HOST-4052,Alfama,2,5,"Sunny 2-bedroom home for 5 guests, Alfama",147.44,2026-11-15,2026-11-19,available,True,4.72
+LST-100387,HOST-4031,Belem,1,2,"Renovated 1BR near Tram 28, Belem",68.92,2026-11-14,2026-11-18,available,True,4.89
+LST-100388,HOST-4158,Bairro Alto,4,8,"Family 4-bedroom flat for up to 8, Bairro Alto",351.07,2026-11-16,2026-11-20,available,True,4.88
+LST-100389,HOST-4180,Baixa,1,2,Top-floor 1BR with city views in Baixa,88.05,2026-11-16,2026-11-26,on_hold,True,4.96
+LST-100390,HOST-4176,Bairro Alto,4,6,"Cosy 4BR studio-style home, Bairro Alto",339.46,2026-11-14,2026-11-29,available,True,4.69
+LST-100391,HOST-4031,Parque das Nacoes,4,7,"Family 4-bedroom flat for up to 7, Parque das Nacoes",302.92,2026-11-14,2026-11-28,available,True,4.91
+LST-100392,HOST-4031,Graca,2,5,"Renovated 2BR near Tram 28, Graca",111.74,2026-11-17,2026-11-20,available,True,4.62
+LST-100393,HOST-4038,Alfama,1,2,"Cosy 1BR studio-style home, Alfama",60.78,2026-11-15,2026-11-27,available,True,4.36
+LST-100394,HOST-4086,Graca,1,2,"Tiled 1-bedroom home near the river, Graca",72.37,2026-11-15,2026-11-30,available,True,4.51
+LST-100395,HOST-4014,Baixa,1,2,"Cosy 1BR studio-style home, Baixa",67.8,2026-11-15,2026-11-26,on_hold,True,4.35
+LST-100396,HOST-4092,Baixa,1,2,Classic Pombaline 1BR in Baixa,65.49,2026-11-14,2026-11-21,on_hold,True,4.5
+LST-100397,HOST-4052,Alcantara,1,2,"Renovated 1BR near Tram 28, Alcantara",68.79,2026-11-17,2026-11-19,on_hold,False,4.84
+LST-100398,HOST-4063,Graca,1,2,Classic Pombaline 1BR in Graca,107.91,2026-11-16,2026-11-22,available,False,4.85
+LST-100399,HOST-4086,Baixa,1,2,"Cosy 1BR studio-style home, Baixa",81.06,2026-11-15,2026-11-20,booked,True,4.71
+LST-100400,HOST-4167,Chiado,2,3,"Sunny 2-bedroom home for 3 guests, Chiado",104.71,2026-11-15,2026-11-29,available,False,
+LST-100401,HOST-4044,Baixa,1,2,"Sunny 1-bedroom home for 2 guests, Baixa",55.08,2026-11-17,2026-11-19,on_hold,False,4.68
+LST-100402,HOST-4092,Alfama,1,2,"Cosy 1BR studio-style home, Alfama",77.73,2026-11-17,2026-11-28,available,False,4.4
+LST-100403,HOST-4124,Baixa,1,2,"Family 1-bedroom flat for up to 2, Baixa",90.14,2026-11-15,2026-11-29,available,True,4.85
+LST-100404,HOST-4167,Estrela,3,6,Quiet 3BR apartment with balcony in Estrela,188.01,2026-11-17,2026-11-23,available,True,4.37
+LST-100405,HOST-4078,Estrela,1,2,Classic Pombaline 1BR in Estrela,86.04,2026-11-14,2026-11-22,booked,True,4.4
+LST-100406,HOST-4044,Alfama,3,7,"Renovated 3BR near Tram 28, Alfama",292.25,2026-11-15,2026-11-26,available,True,4.66
+LST-100407,HOST-4124,Alfama,2,3,Bright 2BR flat in Alfama,126.74,2026-11-17,2026-11-30,available,False,4.91
+LST-100408,HOST-4017,Baixa,1,2,Modern 1BR with lift in Baixa,106.81,2026-11-15,2026-11-26,available,False,4.56
+LST-100409,HOST-4099,Chiado,1,2,"Tiled 1-bedroom home near the river, Chiado",59.42,2026-11-17,2026-11-24,on_hold,True,4.97
+LST-100410,HOST-4017,Estrela,1,2,Modern 1BR with lift in Estrela,56.33,2026-11-16,2026-11-28,on_hold,False,4.58
+LST-100411,HOST-4002,Estrela,1,2,Top-floor 1BR with city views in Estrela,59.9,2026-11-14,2026-11-22,available,True,4.71
+LST-100412,HOST-4044,Parque das Nacoes,2,5,"Tiled 2-bedroom home near the river, Parque das Nacoes",155.7,2026-11-14,2026-11-23,available,False,4.38
+LST-100413,HOST-4078,Estrela,3,6,Bright 3BR flat in Estrela,262.81,2026-11-16,2026-11-21,available,True,4.41
+LST-100414,HOST-4031,Graca,3,5,Modern 3BR with lift in Graca,388.18,2026-11-17,2026-11-18,available,True,4.55
+LST-100415,HOST-4092,Alfama,1,2,"Renovated 1BR near Tram 28, Alfama",71.55,2026-11-16,2026-11-23,on_hold,False,4.95
+LST-100416,HOST-4152,Alcantara,1,2,"Tiled 1-bedroom home near the river, Alcantara",69.68,2026-11-17,2026-11-23,available,False,4.68
+LST-100417,HOST-4071,Principe Real,1,2,"Renovated 1BR near Tram 28, Principe Real",101.24,2026-11-14,2026-11-30,available,True,4.66
+LST-100418,HOST-4163,Chiado,1,2,"Sunny 1-bedroom home for 2 guests, Chiado",82.89,2026-11-14,2026-11-23,available,True,4.63
+LST-100419,HOST-4152,Estrela,1,2,Classic Pombaline 1BR in Estrela,91.74,2026-11-17,2026-11-20,available,False,4.48
+LST-100420,HOST-4171,Graca,2,4,"Renovated 2BR near Tram 28, Graca",91.63,2026-11-16,2026-11-23,available,True,4.83
+LST-100421,HOST-4105,Graca,1,2,"Tiled 1-bedroom home near the river, Graca",65.77,2026-11-15,2026-11-21,booked,False,4.55
+LST-100422,HOST-4071,Chiado,1,2,Top-floor 1BR with city views in Chiado,87.41,2026-11-16,2026-11-20,available,False,4.79
+LST-100423,HOST-4133,Graca,2,4,Top-floor 2BR with city views in Graca,85.71,2026-11-14,2026-11-19,available,False,4.77
+LST-100424,HOST-4133,Parque das Nacoes,1,2,Classic Pombaline 1BR in Parque das Nacoes,84.59,2026-11-16,2026-11-27,available,False,4.8
+LST-100425,HOST-4171,Graca,2,3,"Renovated 2BR near Tram 28, Graca",85.58,2026-11-14,2026-11-26,available,True,4.84
+LST-100426,HOST-4171,Bairro Alto,2,4,"Tiled 2-bedroom home near the river, Bairro Alto",138.58,2026-11-14,2026-11-25,available,True,4.89
+LST-100427,HOST-4180,Alfama,4,9,"Cosy 4BR studio-style home, Alfama",344.27,2026-11-14,2026-11-26,available,True,4.66
+LST-100428,HOST-4031,Baixa,1,2,Quiet 1BR apartment with balcony in Baixa,76.22,2026-11-14,2026-11-29,available,True,4.68
+LST-100429,HOST-4071,Belem,2,5,Modern 2BR with lift in Belem,115.0,2026-11-14,2026-11-22,available,False,4.93
+LST-100430,HOST-4071,Alcantara,3,6,Bright 3BR flat in Alcantara,284.12,2026-11-17,2026-11-23,available,True,4.96
+LST-100431,HOST-4038,Bairro Alto,1,2,"Cosy 1BR studio-style home, Bairro Alto",69.82,2026-11-14,2026-11-21,on_hold,True,4.43
+LST-100432,HOST-4023,Principe Real,3,6,Top-floor 3BR with city views in Principe Real,305.34,2026-11-15,2026-11-21,available,True,4.75
+LST-100433,HOST-4118,Alfama,3,6,"Renovated 3BR near Tram 28, Alfama",349.38,2026-11-15,2026-11-28,on_hold,False,4.49
+LST-100434,HOST-4152,Chiado,2,4,Classic Pombaline 2BR in Chiado,149.49,2026-11-15,2026-11-27,available,True,4.97
+LST-100435,HOST-4086,Alfama,3,7,Top-floor 3BR with city views in Alfama,367.78,2026-11-16,2026-11-25,available,False,4.99
+LST-100436,HOST-4158,Parque das Nacoes,1,2,"Sunny 1-bedroom home for 2 guests, Parque das Nacoes",76.19,2026-11-16,2026-11-28,on_hold,False,4.73
+LST-100437,HOST-4124,Principe Real,1,2,Bright 1BR flat in Principe Real,71.7,2026-11-14,2026-11-27,on_hold,True,4.85
+LST-100438,HOST-4009,Chiado,3,5,Modern 3BR with lift in Chiado,403.92,2026-11-14,2026-11-26,available,True,4.66
+LST-100439,HOST-4086,Belem,1,2,"Sunny 1-bedroom home for 2 guests, Belem",89.82,2026-11-17,2026-11-22,available,False,4.85
+LST-100440,HOST-4052,Baixa,4,10,"Renovated 4BR near Tram 28, Baixa",417.68,2026-11-16,2026-11-23,available,True,4.4
+LST-100441,HOST-4071,Belem,3,6,"Cosy 3BR studio-style home, Belem",402.74,2026-11-17,2026-11-29,available,True,4.89
+LST-100442,HOST-4139,Baixa,1,2,Classic Pombaline 1BR in Baixa,68.39,2026-11-17,2026-11-24,available,False,4.96
+LST-100443,HOST-4017,Graca,4,7,Modern 4BR with lift in Graca,417.41,2026-11-15,2026-11-27,available,False,4.77
+LST-100444,HOST-4152,Principe Real,2,5,"Tiled 2-bedroom home near the river, Principe Real",93.39,2026-11-16,2026-11-18,available,False,4.96
+LST-100445,HOST-4139,Principe Real,4,9,Modern 4BR with lift in Principe Real,380.1,2026-11-17,2026-11-18,available,True,4.71
+LST-100446,HOST-4078,Principe Real,1,2,Top-floor 1BR with city views in Principe Real,74.99,2026-11-16,2026-11-28,available,True,4.95
+LST-100447,HOST-4112,Baixa,2,5,Top-floor 2BR with city views in Baixa,90.27,2026-11-14,2026-11-23,available,True,4.38
+LST-100448,HOST-4176,Baixa,3,7,"Family 3-bedroom flat for up to 7, Baixa",369.48,2026-11-15,2026-11-20,available,False,4.85
+LST-100449,HOST-4023,Alfama,3,6,Top-floor 3BR with city views in Alfama,333.47,2026-11-15,2026-11-19,on_hold,False,4.98
+LST-100450,HOST-4112,Parque das Nacoes,4,8,"Sunny 4-bedroom home for 8 guests, Parque das Nacoes",340.97,2026-11-16,2026-11-18,available,True,4.85

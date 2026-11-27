@@ -117,13 +117,17 @@ class OpenListing:
 
     listing_id: str
     neighborhood: str
-    property_type: str
     bedrooms: int
     max_guests: int
     available_from: date
     available_to: date
     nightly_price: Decimal
     status: ListingStatus
+    property_type: str = ""
+    host_id: str = ""
+    title: str = ""
+    instant_book: bool = False
+    rating: Decimal | None = None
 
     def __post_init__(self) -> None:
         if self.bedrooms < 0:

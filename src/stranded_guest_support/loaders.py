@@ -77,17 +77,23 @@ def load_open_listings_csv(path: str | Path) -> list[OpenListing]:
         reader = csv.DictReader(handle)
         listings: list[OpenListing] = []
         for row in reader:
+            raw_rating = (row.get("rating") or "").strip()
+            raw_instant = (row.get("instant_book") or "").strip().lower()
             listings.append(
                 OpenListing(
                     listing_id=row["listing_id"].strip(),
                     neighborhood=row["neighborhood"].strip(),
-                    property_type=row["property_type"].strip(),
                     bedrooms=int(row["bedrooms"]),
                     max_guests=int(row["max_guests"]),
                     available_from=parse_iso_date(row["available_from"]),
                     available_to=parse_iso_date(row["available_to"]),
                     nightly_price=parse_decimal(row["nightly_price"]),
                     status=ListingStatus(row["status"].strip()),
+                    property_type=(row.get("property_type") or "").strip(),
+                    host_id=(row.get("host_id") or "").strip(),
+                    title=(row.get("title") or "").strip(),
+                    instant_book=raw_instant == "true",
+                    rating=parse_decimal(raw_rating) if raw_rating else None,
                 )
             )
         return listings
